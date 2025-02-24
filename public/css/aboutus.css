@@ -1,0 +1,205 @@
+body
+{
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+   
+}      
+
+  /* General Layout Styling */
+  .about-section {
+    padding: 60px 20px;
+    
+  }
+
+  .about-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color:black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+  }
+
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+  }
+
+
+  /* Mission & Vision Styling */
+  .mission-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    margin-bottom: 50px;
+  }
+
+  .mission-vision div {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .mission-vision h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+
+  .mission-vision p {
+    color:black;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+
+  /* History Section Styling */
+  .history {
+   
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+
+  .history h3 {
+    color: #2980b9;
+    margin:20px auto 10px auto;
+  }
+
+  .history p {
+    color:black;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  .history ul {
+    list-style-type: none;
+     
+    
+  }
+  .history ul i
+  {
+    
+   margin: 10px;
+    color: #f32170;
+    font-size: 20px;
+    
+    
+  }
+  
+  .history li {
+   
+
+    display: inline;
+    font-size: 18px;
+    
+  }
+  
+  
+  
+
+  /* Core Values Section Styling */
+  .core-values {
+    
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+
+  .core-values h3 {
+    color: #2980b9;
+    margin-bottom: 20px;
+  }
+
+  .core-values ul {
+    list-style-type: none;
+    color:black;
+    padding-left: 20px;
+  }
+
+  .core-values ul i
+  {
+    
+   margin: 10px;
+    color: #f32170;
+    font-size: 20px;
+    
+    
+  }
+  .core-values ul li {
+    
+    display: inline;
+    font-size: 18px;
+  }
+
+  /* Faculty Section Styling */
+  .faculty {
+    text-align: center;
+  }
+
+  .faculty h3 {
+    color: #2980b9;
+    margin-bottom: 20px;
+  }
+
+  .faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .faculty-member {
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .faculty-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+  }
+
+  .faculty-name {
+    color:black;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .faculty-role {
+    color:black;
+    margin-bottom: 10px;
+  }
+
+  .faculty-bio {
+    font-size: 0.9rem;
+    color:black;
+    line-height: 1.6;
+  }
+  .faculty a
+  {
+    position: absolute;
+   top: 1970px;
+    right:50px;
+    font-size: larger;
+  }
+
+  @media screen and (max-width: 768px)
+   {
+    .mission-vision {
+      grid-template-columns: 1fr;
+    }
+
+    .faculty-grid {
+      grid-template-columns: 1fr;
+    }
+  }
