@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+header
+{
+    height: 100px;
+    width: 93%;
+    margin-top: 10px;
+    position: absolute;
+    top:10px ;
+    overflow: hidden;
+    clear: both;
+}
+.logo
+{
+    float:left;
+    margin-left: 100px;
+   
+}
+.logo img
+{
+    height:100px;
+    width:150px;
+    object-fit: fill;
+}
+header .menu ul
+{
+    margin-top: 30px;
+   margin-right: 30px;
+   float: right;
+}
+header .menu ul li
+{
+    display:inline-block;    
+    cursor:pointer;
+    padding-left: 40px;
+    font-size: large;
+    
+}
+header .menu ul li a
+{
+    text-decoration: none;
+font-weight: bold;
+}
+header .menu ul li a:hover
+{
+    background: linear-gradient(to right, #f32170, 
+    #ff6b08); 
+    -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+   
+   
+
+}
+.home-main header .menu ul .home-active  
+{
+    color:pink;
+}
+.about-main header .menu ul .about-active
+{
+    color:pink;
+}
+.class-main header .menu ul .class-active
+{
+    color:pink;
+}
+.teacher-main header .menu ul .teacher-active
+{
+    color:pink;
+}
+.contact-main header .menu ul .contact-active
+{
+    color:pink;
+}
+
+@media (max-width:1200px)
+{
+    .logo
+{
+    float:left;
+    margin-left: 10px;
+   }
+}
+
+
+
+
+@media (max-width:1000px)
+{
+header
+{
+    height: 100px;
+    margin-top:5px;
+    top: 5px;
+    
+}
+.logo
+{
+    float:left;
+    margin-left: 30px;
+   }
+.logo img
+{
+    height:100px;
+    width:100px;
+    object-fit: contain;
+}
+header .menu ul
+{
+    margin-top: 25px;
+   margin-right: 20px;
+   float: right;
+}
+header .menu ul li
+{
+    
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+}
+@media (max-width:480px)
+{
+    header
+{
+    height: 60px;
+    width: 96%;
+    margin-top:5px;
+    top: 5px;
+    
+}
+.logo
+{
+    float:left;
+    margin-left: 5px;
+   }
+.logo img
+{
+    height:60px;
+    width:60px;
+    object-fit: contain;
+}
+header .menu ul
+{
+    margin-top: 10px;
+   margin-right: 5px;
+   float: right;
+}
+header .menu ul li
+{
+    
+    padding-left: 5px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+header .menu ul li a
+{
+    cursor: pointer;
+}
+
+
+}
+</style>
+     
+    
+</head>
+<body>
+    <header >
+        <div class="logo">
+            <img src="/public/images/logo.png" >
+        </div>
+        <div class="menu">
+            <ul>
+        <li><a href="/index.html" class="home-active">Home</a></li>
+        <li><a href="/aboutus.html" class="about-active">About Us</a></li>
+        <li><a href="/classes.html" class="class-active">Classes</a></li>
+        <li><a href="/teacher.html" class="teacher-active">Teacher</a></li>
+        <li><a href="/contactus.html" class="contact-active">Contact Us</a></li>
+        
+        </ul>
+        </div>
+    </header>
+</body>
+</html>
